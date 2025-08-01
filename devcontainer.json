@@ -1,0 +1,16 @@
+{
+    "name": "Airflow Container - ETL",
+    "dockerComposeFile": "docker-compose.yaml",
+    "workspaceFolder": "/opt/airflow",
+    "service": "airflow-worker-debug",
+    "remoteUser": "50000",
+    "shutdownAction": "stopCompose",
+    "remoteEnv": {},
+    "customizations": {
+        "vscode": {
+          "extensions": [
+              "ms-python.python"
+            ]
+        }
+      }
+}
