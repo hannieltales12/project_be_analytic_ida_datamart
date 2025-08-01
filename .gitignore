@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Airflow
+airflow.db
+logs/
+*.log
+*.pid
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# Docker volumes / PostgreSQL
+pgdata/
+*.sql~
+
+# Jupyter / notebooks
+.ipynb_checkpoints
+
+# Env files
+.env
+
+# Dados locais
+data/*
+!data/.gitkeep
